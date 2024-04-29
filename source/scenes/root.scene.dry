@@ -28,7 +28,7 @@ Q.month_actions = 0;
 Q.difficulty = 0;
 
 // party resources
-Q.resources = 2;
+Q.resources = 50;
 // party dues
 Q.dues = 2;
 
@@ -89,16 +89,16 @@ Q.nationalization_support = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
+Q.z_relation = 70;
+Q.kpd_relation = 45;
+Q.ddp_relation = 80;
+Q.dvp_relation = 55;
 // DNVP and NSDAP are invariably hostile
 Q.DNVP_relation = 10;
 Q.NSDAP_relation = 0;
 
 // hmm... maybe we can play nice with Hindenburg???
-Q.hindenburg_relation = 25;
+Q.hindenburg_relation = 45;
 
 
 // Does the SPD lead in Prussia?
@@ -152,7 +152,7 @@ Q.pro_republic = 59;
 
 Q.emergency_rule = 0;
 
-Q.budget = 5;
+Q.budget = 50;
 
 // Proportion of different social groups
 // source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 45, table 3.4 - using 1925 figures
@@ -183,8 +183,8 @@ Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
-Q.workers_spd = 60;
-Q.workers_kpd = 20;
+Q.workers_spd = 70;
+Q.workers_kpd = 10;
 Q.workers_z = 5;
 Q.workers_ddp = 0;
 Q.workers_dvp = 0;
@@ -192,45 +192,45 @@ Q.workers_dnvp = 5;
 Q.workers_nsdap = 0;
 Q.workers_other = 10;
 
-Q.old_middle_spd = 5;
+Q.old_middle_spd = 25;
 Q.old_middle_kpd = 0;
 Q.old_middle_z = 5;
 Q.old_middle_ddp= 10;
-Q.old_middle_dvp = 25;
-Q.old_middle_dnvp = 25;
+Q.old_middle_dvp = 15;
+Q.old_middle_dnvp = 15;
 Q.old_middle_nsdap = 10;
 Q.old_middle_other = 10;
 
-Q.new_middle_spd = 5;
+Q.new_middle_spd = 30;
 Q.new_middle_kpd = 0;
 Q.new_middle_z = 10;
-Q.new_middle_ddp= 25;
-Q.new_middle_dvp = 25;
+Q.new_middle_ddp= 15;
+Q.new_middle_dvp = 15;
 Q.new_middle_dnvp = 10;
 Q.new_middle_nsdap = 5;
-Q.new_middle_other = 15;
+Q.new_middle_other = 10;
 
-Q.rural_spd = 10;
+Q.rural_spd = 40;
 Q.rural_kpd = 0;
 Q.rural_z = 5;
 Q.rural_ddp= 5;
-Q.rural_dvp = 15;
-Q.rural_dnvp = 45;
+Q.rural_dvp = 5;
+Q.rural_dnvp = 25;
 Q.rural_nsdap = 5;
 Q.rural_other = 10;
 
-Q.unemployed_spd = 25;
-Q.unemployed_kpd = 50;
+Q.unemployed_spd = 50;
+Q.unemployed_kpd = 30;
 Q.unemployed_z = 0;
 Q.unemployed_ddp = 0;
 Q.unemployed_dvp = 0;
 Q.unemployed_dnvp = 5;
-Q.unemployed_nsdap = 25;
+Q.unemployed_nsdap = 15;
 Q.unemployed_other = 5;
 
-Q.catholics_spd = 15;
+Q.catholics_spd = 25;
 Q.catholics_kpd = 5;
-Q.catholics_z = 50;
+Q.catholics_z = 40;
 Q.catholics_ddp = 0;
 Q.catholics_dvp = 5;
 Q.catholics_dnvp = 5;
